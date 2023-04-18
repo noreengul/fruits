@@ -61,6 +61,13 @@ class StoreFruits extends Command
                 }
             }
 
+            $details = [
+                'title' => 'Fruits Data Store',
+                'body' => 'This is for testing email using mailtrap by noreen'
+            ];
+
+            \Mail::to('noreengul4@gmail.com')->send(new \App\Mail\AdminMail($details));
+
             return "Data stored";
 
             // Validate the value...
