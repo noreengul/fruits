@@ -61,7 +61,28 @@ npm run dev
 ```bash
 php artisan app:store-fruits
 ```
+####  Mailtrape 
+```bash
+MAIL_MAILER=smtp
 
+MAIL_HOST=sandbox.smtp.mailtrap.io
+
+MAIL_PORT=2525
+
+MAIL_USERNAME=bd78aba728aec1
+
+MAIL_PASSWORD=8c9e831f36c9a8
+
+MAIL_ENCRYPTION=tls
+
+MAIL_FROM_ADDRESS=example@gmail.com
+
+MAIL_FROM_NAME="${APP_NAME}"
+
+
+```
+
+ 
 
 #### All set.. Navigate to site url to browse demo.
 
