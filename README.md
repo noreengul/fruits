@@ -12,11 +12,17 @@ git clone
 ### set database credentials in .env file
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=fruits_db
+
 DB_USERNAME=pmauser
+
 DB_PASSWORD=root
+
 
 #### Copy .env.example file to .env and edit credentials
 
