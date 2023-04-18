@@ -58,7 +58,10 @@ npm install
 npm run dev
 ```
 ####  Get Data from api
+```bash
 php artisan app:store-fruits
+```
+
 
 #### All set.. Navigate to site url to browse demo.
 
